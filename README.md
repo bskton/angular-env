@@ -2,7 +2,7 @@
 
 Настройки Vagrant и плаэйбуки Ansible для того, чтобы быстро развернуть окружение для разработки приложений на Angular.
 
-Системные требования
+## Системные требования
 
  * Ubuntu 16.04 64-bit
  * Vagrant 1.8.6
@@ -12,7 +12,7 @@
 
 ## Использование
 
-Выполнить из директории ~projects/angular/dev
+Выполнить из директории ~/projects/angular/dev
 ```bash
 sudo mount -t cifs -o uid=ilya,gid=ilya,password=vagrant,username=vagrant,iocharset=utf8,sec=ntlm //192.168.36.10/www ./www
 ```
